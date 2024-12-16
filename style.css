@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    background-color: rgb(120, 200, 80); /* Verd clar per semblar gespa */
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* Títol */
+#game-title {
+    font-family: "Arial", sans-serif;
+    font-size: 48px;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Canvas - zona de joc */
+#board {
+    background-color: rgb(50, 100, 50); /* Verd fosc per simular la pista de tennis */
+    border-top: 5px solid rgb(255, 255, 255); /* Línies blanques com en una pista real */
+    border-bottom: 5px solid rgb(255, 255, 255);
+    display: block;
+    margin: 20px auto;
+    width: 800px;
+    height: 400px;
+}
+
+/* Instruccions sota el joc */
+#instructions {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#instructions p {
+    margin: 5px 0;
+}
